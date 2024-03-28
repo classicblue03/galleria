@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리아몰 Premium life of yours</title>
+    <link rel="icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="skip-nav">
+        <a href="#main">본문내용바로가기</a>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-inner">
+                <div class="group-flex">
+                    <h1 class="logo">
+                        <a href="#"><span class="blind">갤러리아몰</span></a>
+                    </h1>
+                    <button type="button" class="btn-search" id="">
+                        <span class="blind">추천 검색어</span>
+                    </button>
+                    <a href="#" class="link-basket">
+                        <span class="blind">장바구니</span>
+                        <div class="cart-num">
+                            <span class="blind">장바구니 담긴 수</span>
+                            <span class="num-count">0</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="gnb">
+                    <ul class="nav-list">
+                        <li class="nav-item active"><a href="#" class="link">홈</a></li>
+                        <li class="nav-item"><a href="#" class="link">백화점</a></li>
+                        <li class="nav-item"><a href="#" class="link">뷰티샵</a></li>
+                        <li class="nav-item"><a href="#" class="link">DEAL</a></li>
+                        <li class="nav-item"><a href="#" class="link">베스트</a></li>
+                        <li class="nav-item"><a href="#" class="link">이벤트</a></li>
+                        <li class="nav-item"><a href="#" class="link">기획전</a></li>
+                        <li class="nav-item"><a href="#" class="link">고메이494</a></li>
+                        <li class="nav-item"><a href="#" class="link">공식스토어</a></li>
+                        <li class="nav-item"><a href="#" class="link">브랜드</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- header 검색창 히든메뉴 -->
+        <section class="hd-hidden">
+            <div class="group-search">
+                <div class="search-area">
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend class="blind">검색</legend>
+                            <div class="search-wrap">
+                                <input type="text" class="input-text" placeholder="검색어를 입력하세요">
+                                <button class="btn-submit" onclick="return false"><span class="blind">검색</span></button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <button type="button" class="btn-close" id="">
+                    <span class="close">닫기</span>
+                </button>
+            </div>
+            <div class="group-slide">
+                <div class="swiper hidden-slide swiper-initialized swiper-horizontal">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper" id="swiper-wrapper-bb108ddbd657c5e4" aria-live="polite"
+                        style="transition-duration: 0ms;">
+                        <!-- 최근 검색어 -->
+                        <div class="swiper-slide slide1">
+                            <div class="box-area recent-area">
+                                <div class="tit-wrap">
+                                    <storng class="tit">최근 검색어</storng>
+                                </div>
+                                <div class="history-wrap">
+                                    <i class="icon"></i>
+                                    <p class="desc">최근 검색 내역이 없습니다.</p>
+                                </div>
+                                <div class="delete-wrap">
+                                    <button type="button" class="btn-delete">검색어 전체삭제</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 인기 검색어 -->
+                        <div class="swiper-slide slide2">
+                            <div class="box-area popular-area">
+                                <storng class="tit">인기 검색어</storng>
+                                <ul class="search-list">
+                                    <li class="search-item">
+                                        <a href="#" class="link-item best-item"><i class="rank">1.</i>크록스</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item best-item"><i class="rank">2.</i>파타고니아</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item best-item"><i class="rank">3.</i>나이키</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">4.</i>여자샌들</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">5.</i>원피스</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">6.</i>라코스테여성</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">7.</i>샤넬</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">8.</i>라코스테</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">9.</i>디올</a>
+                                    </li>
+                                    <li class="search-item">
+                                        <a href="#" class="link-item"><i class="rank">10.</i>뉴발란스키즈</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 추천 #쇼핑태그 -->
+                        <div class="swiper-slide slide3">
+                            <div class="box-area shop-area">
+                                <storng class="tit">추천 #쇼핑태그</storng>
+                                <ul class="tag-list">
+                                    <li class="tag-item"><a href="#" class="link-tag">MD PICK</a></li>
+                                    <li class="tag-item"><a href="#" class="link-tag">신상품</a></li>
+                                    <li class="tag-item">
+                                        <a href="#" class="link-tag">비오는날 PICK</a>
+                                    </li>
+                                    <li class="tag-item"><a href="#" class="link-tag">나이키</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main id="main" class="container">
+            <section class="sc-visual">
+                <!-- 배경 -->
+                <div class="swiper visual-slide1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img1.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img2.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img3.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img4.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img5.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img6.jpg" alt></div>
+                    </div>
+                </div>
+                <!-- 플러스 버튼 클릭시 open -->
+                <div class="visual-scroll">
+                    <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                    <div class="inner">
+                        <div class="group-visual">
+                            <ul class="visual-list">
+                                <li class="visual-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/mainslide/img1.jpg" alt>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <strong class="tit">디올 LOVE<br> IN BLOOM</strong>
+                                        <p class="hashtag">화이트데이에는 디올을 선물하세요</p>
+                                    </div>
+                                </li>
+                                <li class="visual-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/mainslide/img2.jpg" alt>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <strong class="tit">루쥬 알뤼르 벨벳<br>뉘 블랑쉬</strong>
+                                        <p class="hashtag">한밤의 외출을 위한 8가지 레드</p>
+                                    </div>
+                                </li>
+                                <li class="visual-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/mainslide/img3.jpg" alt>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <strong class="tit">JUST<br> ARRIVED</strong>
+                                        <p class="hashtag">명품관 뷰티/라이프 3종 쿠폰팩</p>
+                                    </div>
+                                </li>
+                                <li class="visual-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/mainslide/img4.jpg" alt>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <strong class="tit">갤러리아 광교점<br> 4주년 기념</strong>
+                                        <p class="hashtag">장바구니 7% 쿠폰 혜택</p>
+                                    </div>
+                                </li>
+                                <li class="visual-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/mainslide/img5.jpg" alt>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <strong class="tit">오래도록 남아있는<br> 순간의 기억</strong>
+                                        <p class="hashtag">DSLR부터 필름카메라까지</p>
+                                    </div>
+                                </li>
+                                <li class="visual-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/mainslide/img6.jpg" alt>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <strong class="tit">우리아이<br>봄 아우터 준비</strong>
+                                        <p class="hashtag">#바람막이 #코트 #가디건 #점퍼</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fixed-box">
+                            <a href="#" class="link-direct">
+                                <span class="tit">전체 기획전 보기</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper visual-slide2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img1.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img2.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img3.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img4.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img5.jpg" alt></div>
+                        <div class="swiper-slide"><img src="./assets/images/mainslide/img6.jpg" alt></div>
+                    </div>
+                </div>
+                <!-- 히든 슬라이드도 텍스트 바꿔야함 -->
+                <div class="swiper visual-slide3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="text-wrap">
+                                <strong class="tit">디올 LOVE<br> IN BLOOM</strong>
+                                <p class="hashtag">화이트데이에는 디올을 선물하세요</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="text-wrap">
+                                <strong class="tit">루쥬 알뤼르 벨벳<br>뉘 블랑쉬</strong>
+                                <p class="hashtag">한밤의 외출을 위한 8가지 레드</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="text-wrap">
+                                <strong class="tit">JUST<br> ARRIVED</strong>
+                                <p class="hashtag">명품관 뷰티/라이프 3종 쿠폰팩</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="text-wrap">
+                                <strong class="tit">갤러리아 광교점<br> 4주년 기념</strong>
+                                <p class="hashtag">장바구니 7% 쿠폰 혜택</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="text-wrap">
+                                <strong class="tit">오래도록 남아있는<br> 순간의 기억</strong>
+                                <p class="hashtag">DSLR부터 필름카메라까지</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="text-wrap">
+                                <strong class="tit">우리아이<br>봄 아우터 준비</strong>
+                                <p class="hashtag">#바람막이 #코트 #가디건 #점퍼</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- control -->
+                <div class="control-wrap">
+                    <div class="btn-wrap">
+                        <span class="num"></span>
+                        <button class="btn-plus"><span class="blind">프로모션 배너 전체보기 레이어 열기</span></button>
+                    </div>
+                    <button class="btn-autoplay"><span class="blind">자동재생 정지</span></button>
+                </div>
+            </section>
+            <section class="sc-icon">
+                <div class="swiper icon-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#" class="link link1">명품관<br> E.DAY</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link2">타임월드<br> 7% 쿠폰</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link3">NEW<br> 펜할리곤스</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link4">2024년<br> 스틱밤대세</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link5">써스데이<br> 아일랜드</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link6">나이키<br> ~50%세일</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link7">라코스테<br> 러블리신상</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link8">라코스테<br> S/S신상</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link9">리미티드<br> 에디션</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link11">MAC<br> 멜팅핑크</a></div>
+                        <div class="swiper-slide"><a href="#" class="link link12">노스페이스<br> 화이트라벨</a></div>
+                    </div>
+                </div>
+                <a href="#" class="link-box">갤몰에서 봄 상품 갤 하시갤~</a>
+            </section>
+            <!-- 고객님을 위한 추천상품 -->
+            <section id="sc-prd" class="sc-recommend">
+                <h2 class="sc-tit">고객님을 위한 추천상품</h2>
+                <div class="inner">
+                    <div class="swiper basic-slide">
+                        <div class="swiper-wrapper" id="recommList">
+                            <!-- Json -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 실시간 검색어 -->
+            <section class="sc-realtime">
+                <div class="group-time">
+                    <h2 class="blind">실시간 검색어</h2>
+                    <i class="realtime-badge">실시간 검색어</i>
+                    <div class="swiper realtime-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">1</em>
+                                        <strong class="prd-name">씨에로</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">2</em>
+                                        <strong class="prd-name">골프화</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">3</em>
+                                        <strong class="prd-name">남성시계</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">4</em>
+                                        <strong class="prd-name">숄더백</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">5</em>
+                                        <strong class="prd-name">향수</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">6</em>
+                                        <strong class="prd-name">MLB운동화</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">7</em>
+                                        <strong class="prd-name">록시땅기프트</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">8</em>
+                                        <strong class="prd-name">키플링백팩</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">9</em>
+                                        <strong class="prd-name">게스</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <div class="prd-info">
+                                        <em class="prd-rank">10</em>
+                                        <strong class="prd-name">디올</strong>
+                                    </div>
+                                    <span class="new">new</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="standard-time">02월12일 21:00 기준</p>
+                    <button class="btn-arrow" type="button"><i class="icon"></i></button>
+                </div>
+                <!-- 히든메뉴 -->
+                <div class="hidden-menu">
+                    <ul class="rank-list">
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">1</em><strong class="name">씨에로</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">2</em><strong class="name">골프화</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item top-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">3</em><strong class="name">남성시계</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">4</em><strong class="name">숄더백</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">5</em><strong class="name">향수</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">6</em><strong class="name">MLB운동화</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">7</em><strong class="name">록시땅기프트</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item top-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">8</em><strong class="name">키플링백팩</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">9</em><strong class="name">게스</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                        <li class="rank-item">
+                            <a href="#" class="link">
+                                <div class="prd-info">
+                                    <em class="rank">10</em><strong class="name">디올</strong>
+                                </div>
+                                <i class="new">NEW</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 슬라이드 배너 -->
+            <section class="sc-banner">
+                <h2 class="blind">배너 슬라이드</h2>
+                <div class="swiper banner-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/images/galleria_ban/img1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/galleria_ban/img2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/galleria_ban/img3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="control-wrap">
+                        <span class="fraction"></span>
+                        <button class="btn-autoplay"><span class="blind">자동재생 정지</span></button>
+                    </div>
+                </div>
+            </section>
+            <!-- 갤러리아 딜 -->
+            <section class="sc-deal">
+                <h2 class="sc-tit">galleria DEAL</h2>
+                <div class="swiper deal-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide2">
+                            <a href="#" class="link-prd">
+                                <div class="img-wrap center-wrap">
+                                    <img src="./assets/images/galleria_deal/img1.jpg" alt>
+                                </div>
+                                <div class="prd-info">
+                                    <div class="text-wrap">
+                                        <i class="cate-box">백화점</i>
+                                        <span class="brand">맥</span>
+                                        <p class="name">
+                                            [NEW 색상 출시] 맥 아이 섀도우
+                                        </p>
+                                    </div>
+                                    <div class="price-wrap">
+                                        <strong class="discount">15%</strong>
+                                        <strong class="price">28,050 <span class="won">원</span></strong>
+                                        <span class="ori">33,000</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide1">
+                            <a href="#" class="link-prd">
+                                <div class="img-wrap icon">
+                                    <img src="./assets/images/galleria_deal/img1-1.jpg" alt>
+                                    <img src="./assets/images/galleria_deal/img1-2.jpg" alt>
+                                </div>
+                                <div class="prd-info">
+                                    <div class="text-wrap">
+                                        <i class="cate-box">백화점</i>
+                                        <span class="brand">커버낫키즈</span>
+                                        <p class="name">
+                                            [커버낫키즈] C로고면 트윌자켓CV233OJK03
+                                        </p>
+                                    </div>
+                                    <div class="price-wrap">
+                                        <strong class="discount">13%</strong>
+                                        <strong class="price">62,110 <span class="won">원</span></strong>
+                                        <span class="ori">71,400</span>
+                                    </div>
+                                    <span class="delivery">무료배송</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide3">
+                            <a href="#" class="link-prd">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/galleria_deal/img2-1.jpeg" alt>
+                                    <img src="./assets/images/galleria_deal/img2-2.jpeg" alt>
+                                </div>
+                                <div class="prd-info">
+                                    <div class="text-wrap">
+                                        <i class="cate-box">백화점</i>
+                                        <span class="brand">아디다스골프</span>
+                                        <p class="name">
+                                            아디다스 골프 남성 골프 장갑 레더 글로브 화이트 GK2957
+                                        </p>
+                                    </div>
+                                    <div class="price-wrap">
+                                        <strong class="discount">23%</strong>
+                                        <strong class="price">16,170 <span class="won">원</span></strong>
+                                        <span class="ori">21,000</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide4">
+                            <a href="#" class="link-prd">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/galleria_deal/img4-1.jpg" alt>
+                                    <img src="./assets/images/galleria_deal/img4-2.jpg" alt>
+                                </div>
+                                <div class="prd-info">
+                                    <div class="text-wrap">
+                                        <span class="brand">뉴발란스(스포츠)</span>
+                                        <p class="name">
+                                            [뉴발란스] 530 남여공용 운동화 MR530SG
+                                        </p>
+                                    </div>
+                                    <div class="price-wrap">
+                                        <strong class="discount">5%</strong>
+                                        <strong class="price">129,000 <span class="won">원</span></strong>
+                                        <span class="ori">136,000</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <a href="#" class="link-all">전체보기</a>
+            </section>
+            <!-- 금주의 신상품 -->
+            <section id="sc-prd" class="sc-newprd">
+                <h2 class="sc-tit">금주의 신상품</h2>
+                    <div class="swiper basic-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img1.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">아쿠아 디 파르마</strong>
+                                        <p class="name">
+                                            콜로니아 핸드&바디로션 300ml
+                                        </p>
+                                        <strong class="price">96,050<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img2.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">조 말론 런던</strong>
+                                        <p class="name">
+                                            머스크 메멘토 코롱 30ml
+                                        </p>
+                                        <strong class="price">104,000<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img3.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">이팬트리</strong>
+                                        <p class="name">
+                                            모코나 디카페인 커피 100g x 3병 선물세트
+                                        </p>
+                                        <strong class="price">37,920<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img4.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">ab.f.z</strong>
+                                        <p class="name">
+                                            ab.f.z 레이스 퍼프소매 코튼 오프숄더 블라우스 ACY2QB31D
+                                        </p>
+                                        <strong class="price">37,420<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img5.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">ab.f.z</strong>
+                                        <p class="name">
+                                            ABFZ 이단프릴 러블리 오프숄더 블라우스 (센터단독) ACY1HB42C1
+                                        </p>
+                                        <strong class="price">44,920<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img6.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">ab.f.z</strong>
+                                        <p class="name">
+                                            ABFZ 이단프릴 러블리 오프숄더 블라우스 (센터단독) ACY1HB42C
+                                        </p>
+                                        <strong class="price">44,920<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img7.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">ab.f.z</strong>
+                                        <p class="name">
+                                            ab.f.z (센터단독) 여성 클로스 숄더 체인백 ACY5QAB6G1
+                                        </p>
+                                        <strong class="price">97,420<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_new/img8.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">ab.f.z</strong>
+                                        <p class="name">
+                                            ab.f.z (센터단독) 여성 클로스 숄더 체인백 ACY5QAB6G
+                                        </p>
+                                        <strong class="price">97,420<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="sc-focus">
+                <div class="group-tab">
+                    <h2 class="sc-tit">BRAND FOCUS</h2>
+                    <ul class="tab-nav">
+                        <li class="tab-item">
+                            <a href="#" data-target="#fashion" class="tab active">fashion</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="#" data-target="#life" class="tab">life</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="#" data-target="#food" class="tab">food</a>
+                        </li>
+                    </ul>
+                    <div class="category-area">
+                        <div id="fashion" class="category active">
+                            <div class="swiper focus-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide slide1">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/fashion/main1.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion/thum1-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        폴로 랄프 로렌 여성 케이블 니트 코튼 크루넥 카디건(WMPOSWENDW20222999)
+                                                    </p>
+                                                    <strong class="price">299,000<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion/thum1-2.jpg" alt>                                                    
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        폴로 랄프 로렌 남성 케이블 니트 코튼 스웨터(MNPOSWE16820693101)
+                                                    </p>
+                                                    <strong class="price">259,000<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide2">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/fashion/main2.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion/thum2-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [파타고니아코리아] 우먼즈 스카이세일 재킷 26540P5
+                                                    </p>
+                                                    <strong class="price">255,550<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion/thum2-2.jpg" alt>                                                    
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [파타고니아코리아] 베이비 배기스 재킷 60291P5
+                                                    </p>
+                                                    <strong class="price">122,550<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide3">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/fashion1-1.jpeg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion1-2.jpeg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        Overfit V-neck wool knit - navy
+                                                    </p>
+                                                    <strong class="price">67,230<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion1-3.jpeg" alt>                                                    
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        Pine wool round cardigan - cream
+                                                    </p>
+                                                    <strong class="price">97,200<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide4">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/fashion2-1.jpeg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion2-2.jpeg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        남성 조던 에센셜 후디 플리스 풀오버 후디 DQ7467-091
+                                                    </p>
+                                                    <strong class="price">47,600<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/fashion2-3.jpeg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        나이키 데이브레이크 CK2351-112
+                                                    </p>
+                                                    <strong class="price">76,160<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div id="life" class="category">
+                            <div class="swiper focus-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide slide1">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/life/main1.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum1-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [알레르망]스탠다드 베개솜 2PCS
+                                                    </p>
+                                                    <strong class="price">28,470<span class="won"></span>원</strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum1-2.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [알레르망]아르테 차렵패드세트S(핑크,블루)
+                                                    </p>
+                                                    <strong class="price">165,600<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide2">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/life/main2.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum2-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [우드윅] 라지캔들 블랙 체리
+                                                    </p>
+                                                    <strong class="price">27,300<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum2-2.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [우드윅] 라지캔들 라벤더 스파
+                                                    </p>
+                                                    <strong class="price">27,300<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide3">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/life/main3.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum3-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [오덴세] 누프레임 2인 한식 세트
+                                                    </p>
+                                                    <strong class="price">259,350<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum3-2.png" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [오덴세/혼수추천] 레고트 6인조(35P)
+                                                    </p>
+                                                    <strong class="price">459,000<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide4">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/life/main4.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum4-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [Gift Box] 오리엔테 Potiche Vase - Iris
+                                                    </p>
+                                                    <strong class="price">1,231,200<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/life/thum4-2.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [Gift Box] 오리엔테 MUG - Malachite
+                                                    </p>
+                                                    <strong class="price">239,400<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div id="food" class="category">
+                            <div class="swiper focus-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide slide1">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/food/main1.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/food/thum1-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        김규흔 한과 영양강정바 25개입
+                                                    </p>
+                                                    <strong class="price">18,500<span class="won"></span>원</strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/food/thum1-2.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        김규흔 한과 꿀약과 총 20개입
+                                                    </p>
+                                                    <strong class="price">17,570<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide2">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/food/main2.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/food/thum2-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [신앙촌] 양조간장 선물세트 K 4-1호
+                                                    </p>
+                                                    <strong class="price">41,710<span class="won"></span>원</strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/food/thum2-2.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [신앙촌] 양조간장 선물세트 특선 4-1호
+                                                    </p>
+                                                    <strong class="price">19,400<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide3">
+                                        <a href="#" class="link-prd">
+                                            <img src="./assets/images/galleria_focus/food/main3.jpg" alt>
+                                        </a>
+                                        <div class="thumb-prd">
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/food/thum3-1.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [본사직영] 6년근 투데이 홍삼정 플러스 60포
+                                                    </p>
+                                                    <strong class="price">38,850<span class="won"></span>원</strong>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-prd">
+                                                <div class="img-wrap">
+                                                    <img src="./assets/images/galleria_focus/food/thum3-2.jpg" alt>
+                                                </div>
+                                                <div class="prd-info">
+                                                    <p class="prd-name">
+                                                        [본사직영] 프리미엄 홍삼정 천명스틱 골드 30포
+                                                    </p>
+                                                    <strong class="price">40,370<span class="won">원</span></strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 최근 1시간 동안 많이 팔린 상품 -->
+            <section id="sc-prd" class="sc-newprd">
+                <h2 class="sc-tit">최근 1시간 동안 많이 팔린 상품</h2>
+                <div class="inner">
+                    <div class="swiper basic-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_selling/img1.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">이솝</strong>
+                                        <p class="name">
+                                            파슬리 씨드 안티 옥시던트 페이셜 토너 200mL
+                                        </p>
+                                        <strong class="price">69,350<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_selling/img2.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">샤넬</strong>
+                                        <p class="name">
+                                            미르와르 두블르 화세뜨
+                                        </p>
+                                        <strong class="price">41,000<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_selling/img3.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">에스티로더</strong>
+                                        <p class="name">
+                                            에스티 로더 갈색병 세럼 50ml 선물세트 (+디럭스 6종)
+                                        </p>
+                                        <strong class="price">182,000<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_selling/img4.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">정관장</strong>
+                                        <p class="name">
+                                            정관장 홍삼톤 골드
+                                        </p>
+                                        <strong class="price">170,000<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_selling/img5.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">디올</strong>
+                                        <p class="name">
+                                            디올 어딕트 립스틱
+                                        </p>
+                                        <strong class="price">52,250<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_selling/img6.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">뉴발란스(스포츠)</strong>
+                                        <p class="name">
+                                            [뉴발란스] 여성용 574 스니커즈 WL574EVG
+                                        </p>
+                                        <strong class="price">85,050<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 위시리스트 인기 상품 -->
+            <section id="sc-prd" class="sc-newprd">
+                <h2 class="sc-tit">위시리스트 인기 상품</h2>
+                <div class="inner">
+                    <div class="swiper basic-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide1">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img1.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">조르지오 아르마니</strong>
+                                        <p class="name">
+                                            [3S] 디자이너 리프트 파운데이션 세트
+                                        </p>
+                                        <strong class="price">90,250<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide2">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img2.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">아쿠아 디 파르마</strong>
+                                        <p class="name">
+                                            콜로니아 핸드 워시 300ml
+                                        </p>
+                                        <strong class="price">56,950<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide3">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img3.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">조르지오 아르마니</strong>
+                                        <p class="name">
+                                            NEW 아르마니 립 마에스트로 사틴
+                                        </p>
+                                        <strong class="price">52,250<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide4">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img4.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">디올</strong>
+                                        <p class="name">
+                                            NEW 디올 어딕트 립 틴트
+                                        </p>
+                                        <strong class="price">46,550<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide5">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img5.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">맥</strong>
+                                        <p class="name">
+                                            NEW 디올 어딕트 립 맥시마이저
+                                        </p>
+                                        <strong class="price">45,550<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide6">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img6.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">맥</strong>
+                                        <p class="name">
+                                            NEW 디올 어딕트 립스틱
+                                        </p>
+                                        <strong class="price">45,550<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide6">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_wish/img7.jpg" alt>
+                                    <div class="prd-info">
+                                        <strong class="brand">맥</strong>
+                                        <p class="name">
+                                            NEW 립 글로우
+                                        </p>
+                                        <strong class="price">45,550<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 갤러리아 라이브 -->
+            <section class="sc-live">
+                <h2 class="sc-tit">Galleria LIVE</h2>
+                <div class="inner">
+                    <div class="group-video">
+                        <div class="video-thumb">
+                            <div class="btnwrap">
+                                <button type="button" class="btn-videoplay"></button>
+                            </div>
+                        </div>
+                        <div class="framebox">
+                            <iframe width="" height="" src="https://www.youtube.com/embed/AI-CwgHOCqc?si=cd6W8MQo0sj0gSOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="group-prd">
+                        <a href="#" class="link-prd">
+                            <img src="./assets/images/galleria_live/img1.jpg" alt>
+                            <div class="prd-info">
+                                <strong class="brand">샤넬</strong>
+                                <p class="name">
+                                    코코 마드모아젤 오 드 빠르펭 스프레이 100ml
+                                </p>
+                                <strong class="price">255,000<span class="won">원</span></strong>
+                            </div>
+                        </a>
+                        <a href="#" class="link-prd">
+                            <img src="./assets/images/galleria_live/img2.jpg" alt>
+                            <div class="prd-info">
+                                <strong class="brand">샤넬</strong>
+                                <p class="name">
+                                    NEW 코코 마드모아젤 헤어 미스트 35ml
+                                </p>
+                                <strong class="price">79,000<span class="won">원</span></strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="link-all">전체보기</a>
+            </section>
+            <section class="sc-thisweek gap">
+                <h2 class="sc-tit">금주의 추천기획전</h2>
+                <div class="grou1">
+                    <a href="#" class="link-prd">
+                        <img src="./assets/images/galleria_week/cate1/main.jpg" alt>
+                    </a>
+                    <div class="slide-area">
+                        <div class="brand-wrap">
+                            <strong class="tit">바람을 막아줄 옷이 필요할 때,</strong>
+                            <p class="desc">
+                                봄 맞이 가벼운 옷 준비!
+                            </p>
+                        </div>
+                        <div class="swiper thisweek-slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate1/thumb1.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [언더아머] 남성 UA 레거시 윈드브레이커 바람막이 1373821-001
+                                            </strong>
+                                            <strong class="price">84,620<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate1/thumb2.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [언더아머] 남성 UA 트레이닝 캐쥬얼 헬스 바람막이 자켓 1376794-002
+                                            </strong>
+                                            <strong class="price">84,620<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate1/thumb3.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [언더아머] 여성 UA 반투명 우븐 나일론 바람막이 자켓 1378622-001
+                                            </strong>
+                                            <strong class="price">89,380<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate1/thumb4.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [언더아머] 여성 UA 우븐 그래픽 바람막이 아노락 자켓 1377550-001
+                                            </strong>
+                                            <strong class="price">71,500<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate1/thumb5.jpg" alt class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [언더아머] 여성 UA 우븐 그래픽 바람막이 아노락 자켓 1377550-111
+                                            </strong>
+                                            <strong class="price">71,500<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grou2">
+                    <a href="#" class="link-prd">
+                        <img src="./assets/images/galleria_week/cate2/main.jpg" alt>
+                    </a>
+                    <div class="slide-area">
+                        <div class="brand-wrap">
+                            <strong class="tit">로라 메르시에</strong>
+                            <p class="desc">
+                                갤러리아에서 만나보세요
+                            </p>
+                        </div>
+                        <div class="swiper thisweek-slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate2/thumb1.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [로라 메르시에][NEW] 하이바이브 립 컬러 [A]
+                                            </strong>
+                                            <strong class="price">44,100<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate2/thumb2.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [로라 메르시에][NEW] 리얼 플로리스 파운데이션 세트
+                                            </strong>
+                                            <strong class="price">67,500<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate2/thumb3.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [로라 메르시에][NEW] 리얼 플로리스 파운데이션 브러쉬
+                                            </strong>
+                                            <strong class="price">62,100<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate2/thumb4.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [로라 메르시에][NEW]리얼 플로리스 파운데이션 & 브러쉬 세트
+                                            </strong>
+                                            <strong class="price">129,600<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate2/thumb5.jpg" alt class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [로라메르시에] 아이 컬러 [D]
+                                            </strong>
+                                            <strong class="price">38,700<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grou3">
+                    <a href="#" class="link-prd">
+                        <img src="./assets/images/galleria_week/cate3/main.jpg" alt>
+                    </a>
+                    <div class="slide-area">
+                        <div class="brand-wrap">
+                            <strong class="tit">베스트 키워드 : 카드지갑</strong>
+                            <p class="desc">
+                                명품 카드지갑 A to Z
+                            </p>
+                        </div>
+                        <div class="swiper thisweek-slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate3/thumb1.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [보테가베네타] 22SS 여성 인트레치아토 지퍼 카드지갑 (680613_VCPP3_3902_22S)
+                                            </strong>
+                                            <strong class="price">512,100<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate3/thumb2.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [BottegaVeneta]보테가베네타 BOTTEGA VENETA 22FW 707709 VCPP3 8425 인트레치아토 코인 포켓 카드 TS 255912 707709 VCPP3 8425
+                                            </strong>
+                                            <strong class="price">541,790<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate3/thumb3.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                [Bottega Veneta]23SS 보테가베네타 인트레치아토 블루 레더 카드 731956 VCPQ3 4102 731956 VCPQ3 4102
+                                            </strong>
+                                            <strong class="price">350,960<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate3/thumb4.jpg" class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                보테가베네타 131232 V0016 1259 인트레치아토 키케이스
+                                            </strong>
+                                            <strong class="price">320,760<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="link-prd">
+                                        <img src="./assets/images/galleria_week/cate3/thumb5.jpg" alt class="prd-thumb">
+                                        <div class="prd-info">
+                                            <strong class="name">
+                                                보테가베네타 651396 VCQC4 8803 인트레치아토 카세트 명함 카드지갑
+                                            </strong>
+                                            <strong class="price">486,360<span class="won">원</span></strong>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 프리미엄 식품관, 고메이494 -->
+            <section class="sc-gourmet gap">
+                <h2 class="sc-tit">프리미엄 식품관, 고메이494</h2>
+                <div class="swiper gourmet-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide1">
+                            <a href="#" class="link-prd">
+                                <img src="./assets/images/gourmet/img1.jpg" class="prd-thumb">
+                                <div class="text-wrap">
+                                    <strong class="tit">식탁에 물든 신선함</strong>
+                                    <p class="desc">기분 좋은 자연의 맛으로 신선함과 정성을 만나다</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <a href="#" class="link-prd">
+                                <img src="./assets/images/gourmet/img2.jpg" class="prd-thumb">
+                                <div class="text-wrap">
+                                    <strong class="tit">톡톡, 맛있음에 빠지는 그 '맛'</strong>
+                                    <p class="hashtag">#시즈닝#조미료#향신료#요리비결#맛있는시간</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide3">
+                            <a href="#" class="link-prd">
+                                <img src="./assets/images/gourmet/img3.jpg" class="prd-thumb">
+                                <div class="text-wrap">
+                                    <strong class="tit">GOURMET 494 PB 신제품 20% 세일!</strong>
+                                    <p class="hashtag">#갈비탕&찜 #김자반 #황태해장국 #한우소고기무국</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!-- 주간 인기상품 -->
+            <section id="sc-prd" class="sc-newprd sc-weeklyprd">
+                <h2 class="sc-tit">주간 인기상품</h2>
+                <div class="inner">
+                    <div class="swiper basic-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide1">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_best/img1.jpg" alt>
+                                    <i class="rank-box">1</i>
+                                    <div class="prd-info">
+                                        <strong class="brand">디올</strong>
+                                        <span class="name">NEW 립 글로우</span>
+                                        <strong class="price">45,600<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide2">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_best/img2.jpg" alt>
+                                    <i class="rank-box">2</i>
+                                    <div class="prd-info">
+                                        <span class="brand">농부마을</span>
+                                        <span class="name">
+                                            [빵집명소 베비에르] 마왕파이 선물세트 8개입
+                                        </span>
+                                        <strong class="price">8,500<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide3">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_best/img3.jpg" alt>
+                                    <i class="rank-box">3</i>
+                                    <div class="prd-info">
+                                        <span class="brand">이솝</span>
+                                        <span class="name">
+                                            레저렉션 아로마틱 핸드 밤 75ml
+                                        </span>
+                                        <strong class="price">31,300<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide4">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_best/img4.jpg" alt>
+                                    <i class="rank-box">4</i>
+                                    <div class="prd-info">
+                                        <span class="brand">고메이494</span>
+                                        <span class="name">
+                                            [GOURMET 494] 치킨 마크니 카레 250g
+                                        </span>
+                                        <strong class="price">5,130<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide5">
+                                <a href="#" class="link-prd">
+                                    <img src="./assets/images/galleria_best/img5.jpg" alt>
+                                    <i class="rank-box">5</i>
+                                    <div class="prd-info">
+                                        <span class="brand">이솝</span>
+                                        <span class="name">
+                                            레저렉션 아로마틱 핸드 워시 500mL
+                                        </span>
+                                        <strong class="price">46,550<span class="won">원</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="link-all">전체보기</a>
+            </section>
+            <!-- new & hot -->
+            <section class="sc-newhot hero">
+                <h2 class="sc-tit">new & hot</h2>
+                <div class="group-prd group1">
+                    <a href="#" class="link-prd">
+                        <img src="./assets/images/galleria_hot/aesop/bg-main.jpg" alt>
+                    </a>
+                    <div class="brand-wrap">
+                        <strong class="tit">이솝</strong>
+                        <p class="desc">
+                            이솝은 1987년 호주 멜버른에 설립된 이래, 최상의 스킨/헤어/바디 제품을 만들기 위한 우리의 신념을 흔들림 없이 지켜왔습니다.
+                        </p>
+                    </div>
+                    <div class="swiper aesop-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide1">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/aesop/prd1.jpg" alt>
+                                    <strong class="price">38,950<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide2">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/aesop/prd2.jpg" alt>
+                                    <strong class="price">147,250<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide3"> 
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/aesop/prd3.jpg" alt>
+                                    <strong class="price">147,500<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide4">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/aesop/prd4.jpg" alt>
+                                    <strong class="price">46,550<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide5"> 
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/aesop/prd5.jpg" alt>
+                                    <strong class="price">31,350<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-prd group2">
+                    <a href="#" class="link-prd">
+                        <img src="./assets/images/galleria_hot/tamur/bg-main.jpg" alt>
+                    </a>
+                    <div class="brand-wrap">
+                        <strong class="tit">타무르</strong>
+                        <p class="desc">귀빈을 위한 간식</p>
+                    </div>
+                    <div class="swiper tamur-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide1">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/tamur/prd1.png" alt>
+                                    <strong class="price">82,000<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide2">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/tamur/prd2.jpg" alt>
+                                    <strong class="price">21,600<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide3">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/tamur/prd3.jpg" alt>
+                                    <strong class="price">36,900<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide4">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/tamur/prd4.jpg" alt>
+                                    <strong class="price">34,900<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                            <div class="swiper-slide slide5">
+                                <a href="#" class="link-item">
+                                    <img src="./assets/images/galleria_hot/tamur/prd5.jpg" alt>
+                                    <strong class="price">6,600<span class="won">원</span></strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 하단메뉴 고정 -->
+            <div class="btm-hidden-menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#" class="link home"><span class="blind">홈 이동</span></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="link menu"><span class="blind">카테고리 레이어 열기</span></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="link mypage"><span class="blind">마이페이지 이동</span></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="link delivery"><span class="blind">주문/베송조회 이동</span></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="link recent"><span class="blind">최근 본 상품 이동</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 하단 고정메뉴 -->
+            <div class="btm-hidden-layout">
+                <div class="fixed-login">
+                    <a href="#" class="link-login"><em class="login">로그인</em>하세요</a>
+                    <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                </div>
+                <!-- 스크롤 레이아웃 -->
+                <div class="scroll-container">
+                    <div class="gap">
+                        <section class="sc-join">
+                            <div class="group-text">
+                                <p class="desc">갤러리아몰회원만의 다양한 혜택을 받으세요</p>
+                                <a href="#" class="link-join">회원가입</a>
+                            </div>
+                        </section>
+                        <section class="sc-box">
+                            <ul class="box-list">
+                                <li class="box-item"><a href="#" class="link link-dep">백화점</a></li>
+                                <li class="box-item"><a href="#" class="link link-beauty">뷰티샵</a></li>
+                                <li class="box-item"><a href="#" class="link link-gourmet">고메이494</a></li>
+                                <li class="box-item"><a href="#" class="link link-brand">브랜드</a></li>
+                                <li class="box-item"><a href="#" class="link link-store">공식스토어</a></li>
+                                <li class="box-item"><a href="#" class="link link-deal">갤러리아 DEAL</a></li>
+                                <li class="box-item"><a href="#" class="link link-bestseller">베스트셀러</a></li>
+                                <li class="box-item"><a href="#" class="link link-shop">쇼핑기획전</a></li>
+                                <li class="box-item"><a href="#" class="link ink-event">이벤트</a></li>
+                            </ul>
+                            <i class="vt-line vt1"></i>
+                            <i class="vt-line vt2"></i>
+                            <i class="hr-line hr1"></i>
+                            <i class="hr-line hr2"></i>
+                        </section>
+                        <section class="sc-cate">
+                            <h2 class="main-tit">카테고리</h2>
+                            <ul class="tab-nav">
+                                <li class="tab-item active"><a href="#" data-target="#mall" class="active">갤러리아몰</a></li>
+                                <li class="tab-item"><a href="#" data-target="#dep">백화점</a></li>
+                                <li class="tab-item"><a href="#" data-target="#beauty">뷰티샵</a></li>
+                                <li class="tab-item"><a href="#" data-target="#gourmet">고메이494</a></li>
+                            </ul>
+                            <div class="group-related">
+                                <div id="mall" class="prd-area active">
+                                    <ul class="related-list">
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">패션</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">여성</a></li>
+                                                    <li class="sub-item"><a href="#">남성</a></li>
+                                                    <li class="sub-item"><a href="#">캐주얼</a></li>
+                                                    <li class="sub-item"><a href="#">스트리트 캐주얼</a></li>
+                                                    <li class="sub-item"><a href="#">언더웨어</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">스포츠</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">스포츠</a></li>
+                                                    <li class="sub-item"><a href="#">레저</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">잡화</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">가방/지갑/시즌</a></li>
+                                                    <li class="sub-item"><a href="#">패션슈즈</a></li>
+                                                    <li class="sub-item"><a href="#">주얼리/ACC/시계</a></li>
+                                                    <li class="sub-item"><a href="#">명품/수입의류</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">뷰티</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">뷰티샵</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">유아동</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">유아동 의류/잡화</a></li>
+                                                    <li class="sub-item"><a href="#">용품/완구/교구</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">홈&디지털</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">디지털</a></li>
+                                                    <li class="sub-item"><a href="#">가전</a></li>
+                                                    <li class="sub-item"><a href="#">가구/침구/인테리어</a></li>
+                                                    <li class="sub-item"><a href="#">주방/생활/반려동물</a></li>
+                                                    <li class="sub-item"><a href="#">e-쿠폰/여행/도서</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">
+                                                <strong class="tit">식품</strong>
+                                                <button type="button" class="btn-arrow"><span class="blind">카테고리 열기/닫기</span></button>
+                                            </a>
+                                            <div class="sub-area">
+                                                <ul class="sub-list">
+                                                    <li class="sub-item"><a href="#">고메이494</a></li>
+                                                    <li class="sub-item"><a href="#">식품</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="dep" class="prd-area">
+                                    <ul class="related-list">
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">여성캐주얼</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">여성캐릭터/컨템포러리</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">언더웨어</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">남성</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">캐주얼</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">스포츠</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">레저</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">슈즈</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">수입명품</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">가방잡화/쥬얼리</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">화장품</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">유아동</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">가전</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">가전/침구/인테리어</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">주방/생활/반려동물</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">식품</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="beauty" class="prd-area">
+                                    <ul class="related-list">
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">SKIN CARE</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">MAKE UP</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">MEN</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">BODY</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">HAIR</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">MOM & BABY</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">PERFUME</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">VALUE SET</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">GIFTS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="gourmet" class="prd-area">
+                                    <ul class="related-list">
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">청과/야채</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">정육/수신</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">쌀/잡곡/견과</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">간편조리/반찬</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">참치/통조림</a>
+                                        </li>
+                                        <li class="related-item">
+                                            <a href="#" class="btn-related">파스타/면류/믹스</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="sc-brand">
+                            <h2 class="main-tit">브랜드</h2>
+                            <ul class="brand-list">
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand1.png" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand2.png" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand3.png" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand4.png" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand5.jpg" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand6.jpg" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand7.jpg" alt></a>
+                                </li>
+                                <li class="brand-item">
+                                    <a href="#"><img src="./assets/images/ham/brand8.jpg" alt></a>
+                                </li>
+                            </ul>
+                            <a href="#" class="link-search">
+                                <strong class="tit">브랜드 검색</strong>
+                            </a>
+                        </section>
+                        <section class="sc-service">
+                            <h2 class="main-tit">서비스 바로가기</h2>
+                            <ul class="related-list">
+                                <li class="related-item"><a href="#" class="btn-related">갤러리아 LIVE</a></li>
+                                <li class="related-item"><a href="#" class="btn-related">On the Floor</a></li>
+                                <li class="related-item"><a href="#" class="btn-related">PICK-UP@STORE</a></li>
+                            </ul>
+                        </section>
+                        <section class="sc-family">
+                            <h2 class="main-tit">패밀리 앱</h2>
+                            <div class="app-list">
+                                <a href="#" class="link-app">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/ham/family1.png" alt>
+                                    </div>
+                                    <strong class="tit">갤러리아</strong>
+                                </a>
+                                <a href="#" class="link-app">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/ham/family2.png" alt>
+                                    </div>
+                                    <strong class="tit">갤러리아<br> 모바일 상품권</strong>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="sc-menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a href="#" class="link cs-center">고객센터</a></li>
+                            <li class="menu-item"><a href="#" class="link login">로그인</a></li>
+                            <li class="menu-item"><a href="#" class="link app">앱다운로드</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="inner">
+                <div class="group-menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#" class="link">회사소개</a></li>
+                        <li class="menu-item"><a href="#" class="link">공지사항</a></li>
+                        <li class="menu-item"><a href="#" class="link">입점안내</a></li>
+                        <li class="menu-item"><a href="#" class="link">APP 설치</a></li>
+                    </ul>
+                </div>
+                <div class="group-info">
+                    <div class="info-area">
+                        <div class="company-wrap">
+                            <strong class="company">한화갤러리아㈜</strong>
+                            <p class="text">대표이사 : 김은수</p>
+                            <address class="address">
+                                서울특별시 영등포구 63로 50, 별관 2층(여의도동, 63한화생명빌딩)
+                            </address>
+                            <p class="text">
+                                사업자등록번호 : 716-88-02682 <a href="#" class="link-detail">사업자정보확인</a>
+                            </p>
+                            <p class="text">통신판매업신고 : 2023-서울영등포-0816</p>
+                        </div> 
+                        <div class="contact-wrap">
+                            <p class="email">
+                                E-mail : <a href="mailto:galleria@hanwha.com" class="email">galleria@hanwha.com</a>
+                            </p>
+                            <p class="cs">
+                                고객센터 <a href="tel:1588-0121" class="tel">1588-0121</a>
+                            </p>
+                        </div> 
+                        <p class="hosting">호스팅서비스사업자 : 한화 시스템</p>
+                    </div>
+                    <ul class="link-list">
+                        <li class="link-item"><a href="#" class="link">이용약관</a></li>
+                        <li class="link-item"><a href="#" class="link em">개인정보처리방침</a></li>
+                        <li class="link-item"><a href="#" class="link">청소년보호정책</a></li>
+                    </ul>
+                    <p class="copyright">
+                        ⓒ 2023. Hanwha Galleria Corporation All rights reserved.
+                    </p>
+                    <ul class="sns-list">
+                        <li class="sns-item"><a href="#" class="link fb"></a></li>
+                        <li class="sns-item"><a href="#" class="link insta"></a></li>
+                        <li class="sns-item"><a href="#" class="link kakao"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="fixed-btn"><a href="#">TOP</a></div>
+    </div>
+</body>
+
+</html>

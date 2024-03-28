@@ -1,0 +1,68 @@
+{
+    "item":[
+        {
+            "brand":"딥디크",
+            "productName":"오드퍼퓸 플레르드뽀 75ml",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/060/231031050494060.jpg",
+            "price":{
+                "current":265050
+            }
+        },
+        {
+            "brand":"토씨",
+            "productName":"토씨 브리즈맨 실버(Silver)차량용방향제",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/390/210721007373390.jpg",
+            "price":{
+                "current":59000
+            }
+        },
+        {
+            "brand":"네스프레소",
+            "productName":"네스프레소 시티즈 화이트 - D113 WH",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/135/231012049438135.jpg",
+            "price":{
+                "current":223270
+            }
+        },
+        {
+            "brand":"네스프레소",
+            "productName":"네스프레소 시티즈 화이트 - D113 BK",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/321/230504039532321.jpg",
+            "price":{
+                "current":223270
+            }
+        },
+        {
+            "brand":"캉골(스포츠)",
+            "productName":"[캉골] 스트라이프 캉골 키홀더 0023 네이비",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_280x280/src/http://image.galleria.co.kr/C00001/goods/org/305/240113054580305.jpg",
+            "price":{
+                "current":27000
+            }
+        },
+        {
+            "brand":"디스커버리 키즈",
+            "productName":"[광교점] [디스커버리키즈] 카고 맨투맨 트레이닝 (DKTR22024)",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/631/231024050107631.jpg",
+            "price":{
+                "current":21240
+            }
+        },
+        {
+            "brand":"블루독베이비",
+            "productName":"(임신축하,출산,백일,돌,조카선물)모달컬러배내바디수트SET 4종택1",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/143/240104054211143.jpg",
+            "price":{
+                "current":52000
+            }
+        },
+        {
+            "brand":"스타벅스",
+            "productName":"스타벅스 카페라떼 컵커피 200mlx20컵+아이스포장",
+            "thumbnailUrl":"https://cdn2.galleria.co.kr/cmd/RB_360x360/src/http://image.galleria.co.kr/C00001/goods/org/104/230818045991104.jpg",
+            "price":{
+                "current":30940
+            }
+        }
+    ]
+}
