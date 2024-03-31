@@ -1,0 +1,245 @@
+.hidden {
+    overflow: hidden;
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.skip-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.skip-nav a {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    background: #f00;
+}
+
+.skip-nav a:focus,
+.skip-nav a:active {
+    top: 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+main {
+    padding-bottom: 16px;
+    background: #E9E9ED;
+}
+
+section {
+    background: #fff;
+}
+
+section.gap {
+    margin-bottom: 8px;
+}
+
+section .inner {
+    padding: 0 16px;
+}
+
+.hd-hidden .group-search .btn-submit::before,
+.footer .group-info .sns-item .link,
+.link-all::after,
+.sc-banner .btn-autoplay::after,
+.visual-scroll .btn-close::after,
+.btm-hidden-menu .menu-item .link::after,
+.btm-hidden-layout .fixed-login .btn-close {
+    background: url(../images/icon/ico_common.png) no-repeat;
+    background-size: 107px 168px;
+}
+
+.hidden-layout .sc-brand .link-search span::before,
+.hidden-layout .sc-menu .menu-item .link::before,
+.hidden-layout .sc-fix .link-login::after,
+.hidden-layout .sc-cate .btn-related .btn-arrow,
+.btm-hidden-layout .fixed-login .link-login::after,
+.btm-hidden-layout .sc-join .link-join::after,
+.btm-hidden-layout .sc-menu .menu-item .link::before,
+.btm-hidden-layout .sc-cate .btn-related .btn-arrow,
+.btm-hidden-layout .sc-brand .link-search .tit::before,
+.btm-hidden-layout .sc-family .link-app .img-wrap::after {
+    background: url(../images/icon/ico_side_v2.png) no-repeat;
+    background-size: 44px 128px;
+}
+
+.sc-visual .control-wrap .btn-plus,
+.sc-visual .control-wrap .btn-autoplay::after {
+    background: url(../images/icon/ico_topMainBn.png) no-repeat;
+    background-size: 33px 11px;
+}
+
+.btm-hidden-layout .sc-box .link::before {
+    background: url(../images/icon/ico_menu.png) no-repeat;
+    background-size: cover;
+}
+
+.link-all {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    border-top: 1px solid #E9E9ED;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #191919;
+}
+
+.link-all::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    vertical-align: -2px;
+    background-position: -74px -98px;
+}
+
+main .sc-tit {
+    padding: 35px 0 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* 
+    고객님을 위한 추천상품
+    금주의 신상품
+    최근 1시간 동안 많이 팔린 상품
+    위시리스트 인기 상품
+    주간 인기상품 
+*/
+
+#sc-prd {
+    padding-bottom: 35px;
+}
+
+#sc-prd .prd-info .brand {
+    display: inline-block;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#sc-prd .prd-info .name {
+    overflow: hidden;
+    display: block;
+    height: 38px;
+    padding-right: 16px;
+    line-height: 19px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    word-wrap: normal;
+    font-size: 15px;
+    color: #505050;
+}
+
+#sc-prd .prd-info .price {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+#sc-prd .prd-info .won {
+    margin-top: 8px;
+    margin-left: 2px;
+    font-size: 14px;
+}
+
+
+/* swiper */
+.swiper-pagination {
+    position: initial;
+    display: flex;
+    justify-content: center;
+    gap: 0 4px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    border: #191919 1px solid;
+    background: #fff;
+}
+
+.fixed-btn {
+    opacity: 0;
+    z-index: 1;
+    position: fixed;
+    bottom: 69px;
+    right: 16px;
+    transition: .35s;
+    transform: translate3d(0px, 51px, 0px);
+}
+
+.fixed-btn a {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 46px;
+    height: 44px;
+    padding-top: 23px;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border: #E9E9ED 1px solid;
+    background: #fff;
+}
+
+.fixed-btn a::before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 17px;
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #191919;
+    border-width: 0 1px 1px 0;
+    transform: rotate(-135deg);
+}
+
+.fixed-btn.show {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.fixed-btn.up {
+    transform: translate3d(0px, 51px, 0px);
+}
+
+.fixed-btn.hide {
+    opacity: 0;
+}
